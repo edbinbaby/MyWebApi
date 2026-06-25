@@ -20,10 +20,10 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /root/DotnetDemo/MyWebApi
+            cd /home/ubuntu/DotnetDemo/MyWebApi
 
             git pull origin main
 
-            dotnet publish -c Release -o /root/publish
+            dotnet publish -c Release -o /home/ubuntu/publish
 
-            systemctl restart mywebapi
+            sudo systemctl restart mywebapi
