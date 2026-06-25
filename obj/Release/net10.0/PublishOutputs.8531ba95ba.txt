@@ -1,9 +1,0 @@
-/root/publish/MyWebApi
-/root/publish/appsettings.Development.json
-/root/publish/appsettings.json
-/root/publish/MyWebApi.dll
-/root/publish/MyWebApi.deps.json
-/root/publish/MyWebApi.runtimeconfig.json
-/root/publish/MyWebApi.pdb
-/root/publish/Microsoft.AspNetCore.OpenApi.dll
-/root/publish/Microsoft.OpenApi.dll
